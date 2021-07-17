@@ -1,0 +1,38 @@
+
+
+1 - instalaçao: requisitos > nodeJS
+
+2 - npm install -g sass (-g é a instalação global, ou seja posso utilizar em outros projetos)
+
+3 - crie um arquivo .css e outro .scss
+
+4 - relacione eles pelo comando scss style.scss:style.css (assim o .css compila o arquivo .scss)
+
+5 - para fazer a atualização de forma automativa utilize scss --watch style.scss:style.css
+se tiver dentro de outros diretorios colocar o caminho dos arquivos.
+
+
+Mapa de diretorio SCSS
+
+colors.scss/@import './colors'_______________
+                                             |
+                                             v
+@mixins.scss-----------------------------> main.scss --> main.css
+                                             ^        |                  
+variavel.scss/@import './variavel./colors'___|        |
+                                                      |
+                                                      v
+                                          sass --watch main.scss:main.css
+
+
+
+
+
+
+
+
+
+
+
+
+
