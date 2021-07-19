@@ -24,6 +24,8 @@ variavel.scss/@import './variavel./colors'___|        |
                                                       v
                                           sass --watch main.scss:main.css
 
+                                          
+
 
 
 
